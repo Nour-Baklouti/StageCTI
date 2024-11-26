@@ -1,0 +1,613 @@
+Question	A	B	C	D	Réponse correcte	GenRes
+"Question :  Quel type de faiblesse est celui où la faiblesse existe indépendamment des autres faiblesses ?
+A. Primaire
+B. Enfant
+C. Défaut
+D. Top Ten"	A					A
+"Question : Quelle conséquence commune de la faiblesse CWE-412 est décrite dans le texte ?
+A. Corruption de données
+B. Fuite de mémoire
+C. Déni de service
+D. Injection de code"	C					C
+"Question : Quel est le type de vulnérabilité décrite dans le texte ?
+A. Déni de service
+B. Authentification manquante
+C. Authentification contournée
+D. Cross-site scripting"	C					C
+"Question :
+Quel type de relation est établi entre la page ""Improper Neutralization of Directives in Statically Saved Code"" et la page ""Server-Side Includes (SSI) Injection"" ?
+A. ParentOf
+B. ChildOf
+C. SiblingOf
+D. SpouseOf"	B					A
+"Question : Le texte indique que la vulnérabilité d'injection SQL survient lorsqu'un logiciel :
+
+A. utilise une entrée influencée de l'extérieur sans la neutraliser correctement.
+B. exécute des commandes système en fonction d'entrées contrôlées par l'utilisateur.
+C. n'effectue pas de distinction entre les plans de contrôle et de données.
+D. enregistre les entrées utilisateur dans une base de données."	A					A
+"**Question :**
+
+Quelle faille de sécurité implique une lecture en dehors des limites prévues d'un tableau ?
+
+A. Buffer Over-read
+B. Wrap-around Error
+C. Out-of-bounds Read
+D. Improper Handling of Extra Values
+
+**"	** C					C
+"Question : Quelle est la bonne pratique de validation des entrées mentionnée dans le texte ?
+
+A. Décoder et canonicaliser les entrées avant validation
+B. Décoder les entrées deux fois
+C. Utiliser uniquement des listes noires pour la validation
+D. Ignorer les délimiteurs dans les entrées"	A					A
+"Question : Quelle est la description concise de cette vulnérabilité CWE-76 ?
+A. Neutralisation incorrecte d'éléments spéciaux équivalents
+B. Injection d'un élément spécial
+C. Neutralisation incorrecte d'éléments spéciaux dans une commande
+D. Filtrage incorrect d'éléments spéciaux dangereux"	A					Flagged
+"Question : Quel type d'erreur est associé à la validation d'entrées avant leur décodage et leur canonicalisation ?
+
+A. Erreur de validation incorrecte
+B. Erreur de filtrage précoce
+C. Erreur de comparaison
+D. Erreur de nettoyage"	B					B
+"Question : Quel est le paramètre qui doit être passé avec la valeur 3 ?
+A. Deuxième paramètre des fonctions __fxstat64
+B. Troisième paramètre des fonctions __wcstol_internal
+C. Premier paramètre des fonctions __xstat
+D. Quatrième paramètre des fonctions __lxstat64"	C					A
+"Question : Quel mode d'introduction permet de détecter les faiblesses CWE-665 ?
+A. Modes bien testés
+B. Modes rarement testés
+C. Modes fréquemment utilisés
+D. Modes de protection"	B					B
+"Question : Selon le texte, quel traitement de données personnelles constitue un intérêt légitime du responsable du traitement des données ?
+
+A. Le marketing direct
+B. La transmission de données au sein d'un groupe d'entreprises
+C. La prévention de la fraude
+D. La sécurité du réseau et des informations"	C					D
+"**Question :**
+
+Selon le texte, quelle est une stratégie d'atténuation potentielle pour l'attaque par observation du temps ?
+
+A. Spécifier des stratégies d'implémentation qui n'introduisent pas de variations temporelles dans les opérations
+B. Comparer les hachages des mots de passe plutôt que les mots de passe eux-mêmes
+C. Ajouter des retards artificiels ou aléatoires pour que le temps CPU consommé soit indépendant de l'action
+D. Manipuler artificiellement le moment des opérations
+
+**"	** C					A
+"Question : Quelle catégorie OWASP Top Ten 2004 est liée à cette faiblesse ?
+A. A1 - Injection
+B. A9 - Déni de service
+C. A7 - Cross-site Scripting (XSS)
+D. A4 - Révélation d'informations sensibles"	B					C
+"Question : Laquelle des clauses suivantes est incluse dans les règles d'entreprise contraignantes ?
+
+A. Mécanismes de vérification des mesures correctives
+B. Format d'échange d'informations entre les contrôleurs
+C. Liste des superviseurs compétents
+D. Procédures de déclaration des transferts de données"	A					A
+"Question : Quel type d'attaque s'appuie fortement sur les différences de comportement et de réponse ?
+A. Attaque par force brute
+B. OS fingerprinting
+C. Injection SQL
+D. Vol d'identité"	B					B
+"Question :  Laquelle des affirmations suivantes est une bonne pratique pour valider les noms de fichiers ?
+A. Utiliser une liste blanche rigoureuse limitant les caractères autorisés
+B. S'appuyer uniquement sur un mécanisme de filtrage pour supprimer les caractères potentiellement dangereux
+C. Autoriser plusieurs caractères ""."" dans le nom de fichier
+D. Inclure des séparateurs de répertoire tels que ""/"" dans le nom de fichier"	A					A
+"Question :  Quelles mesures sont interdites par le texte ?
+
+A. Les mesures basées sur l'orientation sexuelle
+B. Les mesures basées sur la religion
+C. Les mesures basées sur la santé génétique
+D. Toutes les réponses précédentes"	D					D
+"**Question :**
+
+À qui ne s'applique pas le Règlement général sur la protection des données (RGPD) ?
+
+A. Aux personnes physiques
+B. Aux micro, petites et moyennes entreprises
+C. Aux entreprises établies comme personnes morales
+D. Aux institutions et organes de l'Union
+
+**"	C**					D
+"Question :
+Quelle est la vulnérabilité décrite dans le texte ?
+
+A. Dépassement de mémoire tampon
+B. Dépassement de capacité
+C. Corruption de mémoire
+D. Erreur de déréférencement"	A					A
+"Question : Quel est l'un des obstacles identifiés dans le texte ?
+
+A. La fragmentation de la mise en œuvre de la protection des données
+B. L'incertitude juridique
+C. La faible perception publique des risques
+D. Le manque d'harmonisation des règles de protection des données"	A					A
+"Question :  Quel est l'avantage des listes noires dans la validation des entrées ?
+A. Elles permettent de détecter tous les types d'entrées malveillantes.
+B. Elles sont efficaces pour déterminer les entrées qui doivent être rejetées immédiatement.
+C. Elles peuvent être utilisées pour contourner les schémas de validation de liste blanche.
+D. Elles garantissent que toutes les entrées valides sont acceptées."	B					B
+"Question : Quel est le moyen le plus prudent pour échapper ou filtrer les caractères spéciaux ?
+A. Échapper ou filtrer uniquement les caractères qui ne sont pas dans une liste blanche très stricte
+B. Filtrer tous les caractères sauf les espaces blancs
+C. Échapper tous les caractères sauf les espaces blancs
+D. Encadrer chaque argument entre guillemets après l'échappement/filtrage"	A					A
+"Question : Quelle fonction présente un risque de débordement de mémoire ?
+A. strcat()
+B. strcpy()
+C. sprintf()
+D. strlcpy()"	B					A
+"Question : Qui est responsable d'accréditer les organismes de certification en matière de protection des données ?
+A. La Commission européenne
+B. Un organisme de certification indépendant
+C. L'autorité de surveillance compétente
+D. Le Parlement européen"	C					C
+"**Question :**
+Quelle est la description de la faille CWE-290 ?
+
+**A.** Authentification contournée par usurpation
+**B.** Accès contrôlé
+**C.** Contournement du mécanisme de protection
+**D.** Gain de privilèges / usurpation d'identité
+
+**"	A**					C
+"Question : Quelle mesure ne peut PAS être imposée par une autorité de contrôle selon le texte ?
+A. Interdire le traitement des données
+B. Ordonner la rectification ou l'effacement des données
+C. Imposer une amende
+D. Autoriser le transfert de données vers un pays tiers"	D					Flagged
+"Question : Quelle est la restriction violée par l'utilisation de la classe Java Class Loader dans un Enterprise JavaBean ?
+
+A. Accès à des classes extérieures à l'EJB
+B. Création de nouveaux chargeurs de classe
+C. Obtention du chargeur de classe actuel
+D. Chargement de classes depuis des URL distantes"	C					A
+"Question : Quelle cause commune de fuite de mémoire est évoquée dans le texte ?
+A. Erreurs de programmation
+B. Attaques malveillantes
+C. Bug mémoire
+D. Mauvaise gestion de la pile"	A					Flagged
+"Question : Laquelle des solutions suivantes est recommandée pour empêcher les déréférencements de pointeurs nuls ?
+A. Utiliser un langage non sensible à ces problèmes
+B. Vérifier les résultats des fonctions qui retournent une valeur
+C. Initialiser explicitement toutes les variables
+D. Utiliser des outils d'analyse statique automatisés"	B					Flagged
+"Question : Parmi les options suivantes, laquelle n'est PAS une mesure de prévention contre les dépassements de tampon ?
+
+A. Utiliser une bibliothèque ou un framework vérifié
+B. Utiliser des bibliothèques ou des frameworks qui simplifient la gestion des nombres
+C. Exécuter votre logiciel avec des fonctionnalités ou des extensions qui fournissent une protection automatique
+D. Utiliser un compilateur sans fonctionnalités de détection automatique des dépassements de tampon"	D					Flagged
+"**Question :**
+
+Quelle est la conséquence commune de CWE-406 ?
+
+A. Amplification de ressources asymétriques
+B. DoS : consommation de ressources
+C. Attaques par inondation
+D. Attaques par déni de service
+
+**"	** B					Flagged
+"Question : Quelle stratégie de validation des entrées est recommandée pour éviter les vulnérabilités de type CWE-148 ?
+A. Utiliser une liste noire pour identifier les entrées malveillantes
+B. Utiliser une liste blanche pour accepter uniquement les entrées valides
+C. Utiliser exclusivement des expressions régulières pour valider les entrées
+D. Rejeter uniquement les entrées qui sont syntaxiquement incorrectes"	B					Flagged
+"Question : Quelle faiblesse de sécurité est illustrée dans l'exemple 6 ?
+A. Utilisation d'une liste blanche inadéquate
+B. Manque de vérification de contrôle d'accès
+C. Utilisation de requêtes SQL non préparées
+D. Stockage non sécurisé des informations d'identification"	A					Flagged
+"**Question :**
+Quelle est l'erreur dans le fragment de code C fourni ?
+
+**A.** L'utilisation de pthread_mutex_lock() sans vérifier sa valeur de retour
+**B.** L'absence de pthread_mutex_unlock() après avoir acquis le mutex
+**C.** L'utilisation d'un type de données incorrect pour le mutex
+**D.** Toutes les réponses ci-dessus
+
+**"	** A					Flagged
+"Question : Lequel des éléments suivants N'EST PAS un domaine dans lequel ATT&CK est utilisé ?
+A. Détection d'intrusion
+B. Chasse aux menaces
+C. Ingénierie de sécurité
+D. Misinformation"	D					Flagged
+"Question : Dans quelles circonstances une autorité de contrôle non principale peut-elle traiter des cas locaux ?
+
+A. Lorsque le traitement concerne uniquement les données des salariés dans un État membre spécifique
+B. Lorsque l'autorité principale ne répond pas dans les délais
+C. Lorsque l'autorité principale refuse de traiter le cas
+D. Lorsque l'autorité non principale est la plus compétente pour traiter le cas"	A					Flagged
+"Question : Laquelle des techniques suivantes est mentionnée dans le texte pour prévenir les accès directs aux fichiers en dehors de la racine du document Web ?
+A. Définition d'une constante fixe dans le programme appelant
+B. Utilisation d'un répertoire séparé et des capacités de contrôle d'accès du serveur Web
+C. Capturer les erreurs dans les messages de journal
+D. Utilisation de la fonction register_globals"	B					Flagged
+"Question : Quelle est la première atténuation potentielle mentionnée dans le texte ?
+A. Faire que la méthode cloneable() soit finale.
+B. Faire que la méthode cloneable() soit privée.
+C. Faire que la méthode cloneable() soit protégée.
+D. Faire que la méthode cloneable() soit publique."	A					Flagged
+"Question : Quelles sont les conséquences courantes d'une validation d'entrée incorrecte, comme décrit dans le texte ?
+A. Intégrité uniquement
+B. Confidentialité et disponibilité
+C. Disponibilité uniquement
+D. Confidentialité uniquement"	B					Flagged
+"Question : Quelle est une mesure d'atténuation potentielle contre les erreurs d'index de tableau mentionnée dans le texte ?
+A. Architecture et conception
+B. Validation des entrées
+C. Bibliothèques ou frameworks
+D. Correction d'erreurs"	B					Flagged
+"Question :  Quel choix n'est PAS une faiblesse liée à la mauvaise neutralisation d'éléments spéciaux ?
+A. Neutralisation incorrecte d'éléments spéciaux dans les données de sortie
+B. Neutralisation incorrecte des délimiteurs
+C. Neutralisation incorrecte des terminateurs d'entrée
+D. Erreurs de représentation"	D					Flagged
+"Question : Laquelle des pratiques suivantes est une bonne pratique pour atténuer la vulnérabilité CVE-2010-0211 ?
+A. Vérifier les résultats des fonctions qui retournent une valeur
+B. Se fier uniquement à la valeur de retour de la fonction
+C. Ignorer complètement les valeurs de retour des fonctions
+D. Supprimer toute vérification des valeurs de retour des fonctions"	A					Flagged
+"Question : Quelle est l'une des conséquences courantes d'une mauvaise gestion d'un élément spécial manquant ?
+A. Corruption des données
+B. Vulnérabilités d'injection
+C. DoS : plantage / sortie / redémarrage
+D. Violation d'accès"	C					Flagged
+"Question : Laquelle des affirmations suivantes est une conséquence potentielle de l'utilisation d'une API non omniprésente ?
+A. Problèmes de portabilité
+B. Incohérences
+C. Déni de service
+D. Toutes les réponses ci-dessus"	D					Flagged
+"Question : Quelle est la description succincte de la faiblesse CWE-394 ?
+
+A. La mauvaise gestion d'exceptions peut entraîner des résultats inattendus.
+B. Les fonctions retournent des valeurs inattendues, ce qui entraîne des erreurs de déréférencement NULL.
+C. L'utilisation d'une capture NullPointerException peut détecter les déréférencements de pointeur NULL.
+D. Les erreurs de mise en œuvre peuvent conduire à des états inattendus."	B					Flagged
+"Question : Dans l'exemple 2 du texte, quel est le comportement potentiel de l'erreur de codage ?
+A. Le programme peut continuer à s'exécuter en libérant de la mémoire.
+B. Le programme s'arrêtera brutalement avec une erreur de segmentation.
+C. Le programme pourra effectuer une sortie normale.
+D. L'erreur sera ignorée et n'aura aucune conséquence."	B					Flagged
+"Question : Lequel des éléments suivants est une conséquence potentielle d'une mauvaise configuration ASP.NET sans validation d'entrée ?
+A. Exécution de code non autorisé
+B. Violation de l'intégrité
+C. Atteinte à la confidentialité
+D. Réduction de la disponibilité"	A					Flagged
+"**Question :**
+
+Quel est le type de faille de sécurité identifié dans le texte ?
+
+A. Exposition de données sensibles par requêtes de données
+B. Fuite d'informations par message d'erreur
+C. Accès non autorisé à la base de données
+D. Vulnérabilité de canal ouvert
+
+**"	** A					Flagged
+"Question : Quel est le critère principal pour nommer une technique ?
+A. Sa précision
+B. Son impact
+C. Son unicité
+D. Son application"	C					Flagged
+"Question :  Lequel des éléments suivants peut être spécifié dans les codes de conduite pour l'application du règlement ?
+A. Le traitement loyal et transparent
+B. Les intérêts légitimes poursuivis par les responsables du traitement dans des contextes spécifiques
+C. Les mesures et procédures mentionnées aux articles 24 et 25
+D. Tout ce qui précède"	D					Flagged
+"Question : Quelle méthode de détection des vulnérabilités d'injection SQL présente des faux positifs ?
+A. Analyse statique automatisée
+B. Analyse dynamique automatisée
+C. Analyse manuelle
+D. Fuzz testing"	A					Flagged
+"Question : Selon le texte, quelle est l'une des conséquences possibles de l'utilisation d'un algorithme cryptographique faible ou risqué ?
+
+A. Fuite de données sensibles
+B. Augmentation de la vitesse de traitement
+C. Meilleure sécurité des données
+D. Aucun des choix A, B ou C"	A					Flagged
+"Question : Laquelle des failles CWE suivantes est liée aux erreurs de gestion des ressources ?
+A. CWE-395
+B. CWE-399
+C. CWE-405
+D. CWE-410"	B					Flagged
+"Question :
+Quel type d'attaque peut être possible si l'authentification ou son échec est ignoré ?
+A. MitM
+B. CSRF
+C. Brute-force
+D. Phishing"	A					Flagged
+"Quelle est la faiblesse décrite dans le texte ?
+
+A. CWE-185
+B. CAPEC-3
+C. CAPEC-18
+D. CAPEC-85"	A					Flagged
+"Question : Quelle est la bonne pratique J2EE pour obtenir une connexion à la base de données ?
+A. Utiliser DriverManager.getConnection()
+B. Utiliser la gestion des ressources du conteneur d'application Web
+C. Écrire manuellement le code de connexion
+D. Créer une nouvelle instance de Connection"	B					Flagged
+"**Question :**
+
+Quelle est la cause du problème de sécurité décrit dans le texte ?
+
+A. Le filtre des scripts dans les chaînes de requête HTTP est contourné.
+B. Les caractères spéciaux sont mal neutralisés dans les identifiants des pages Web.
+C. Les entrées contrôlées par l'utilisateur ne sont pas correctement filtrées pour les scripts exécutables.
+D. Les données HTTP ne sont pas correctement encodées.
+
+**"	C**					Flagged
+"**Question :**
+
+Quelle conséquence commune est mentionnée dans le texte ?
+
+A. Denial of service
+B. Confidencialité
+C. Authentification
+D. Disponibilité
+
+**"	** B					Flagged
+"Question : Quelle est la conséquence courante de ce type de vulnérabilité ?
+A. Accès non autorisé aux fichiers
+B. Modification des fichiers système
+C. Exécution de code arbitraire
+D. Usurpation d'identité"	A					Flagged
+"Question :
+Quel exemple de code est cité dans le texte pour illustrer la perte de précision lors de la conversion d'un littéral float en un entier ?
+
+A. Exemple Java
+B. Exemple PHP
+C. Exemple CVE-2007-4268
+D. Exemple CVE-2009-0231"	A					Flagged
+"Question : Parmi les vulnérabilités CWE énumérées, laquelle concerne les attaques par injection SQL ?
+A. CWE-87
+B. CWE-89
+C. CWE-91
+D. CWE-95"	B					A
+"Question : Quelle entrée correspond au nom de la faiblesse ""Weaknesses in the 2009 CWE/SANS Top 25 Most Dangerous Programming Errors"" ?
+A. CWE-700
+B. CWE-750
+C. CWE-800
+D. CWE-900"	B					A
+"Question : Selon le texte, dans quelles situations le sujet concerné a-t-il le droit de s'opposer au traitement de ses données personnelles ?
+
+A. Lorsque le traitement est nécessaire à l'exécution d'un contrat
+B. Lorsque le traitement est nécessaire à l'exécution d'une mission d'intérêt public
+C. Lorsque le traitement est fondé sur les intérêts légitimes du responsable du traitement ou d'un tiers
+D. Lorsque le traitement est destiné à des fins de marketing direct"	C					D
+"Question : Selon l'exemple PHP fourni dans le texte, quelle vérification doit être effectuée avant de définir le nouveau mot de passe ?
+
+A. La confirmation du mot de passe avec un deuxième champ
+B. L'égalité du mot de passe et du mot de passe de confirmation
+C. La connaissance de l'ancien mot de passe
+D. L'utilisation d'un mécanisme d'authentification supplémentaire"	C					B
+"Question : Selon le texte, quelle technique présente une efficacité limitée pour protéger contre les attaques XSS ?
+
+A. Stockage de l'état client et des informations sensibles sur le serveur
+B. Duplication des vérifications de sécurité sur le serveur
+C. Encodage de sortie systématique avec une spécification de jeu de caractères
+D. Définition d'un attribut de filtre sur true pour les beans de formulaire dans Struts"	A					D
+"Question : Quelle est la probabilité d'exploitation de l'insuffisance d'encapsulation ?
+A. Faible
+B. Moyenne
+C. Forte
+D. Très forte"	B					C
+"Question : Quel est le nom du modèle d'attaque CAPEC-ID 54 ?
+A. Probing an Application Through Targeting its Error Reporting
+B. Reflection Attack in Authentication Protocol
+C. Encryption Brute Forcing
+D. Password Recovery Exploitation"	A					A
+"**Question :** Quelle erreur peut être évitée en laissant un octet libre à la fin des tampons pour un caractère nul ?
+
+A. Dépassement de tampon
+B. Erreur d'allocation de mémoire
+C. Dépassement d'entier
+D. Corruption de données
+
+**"	** A					A
+"Question : Lequel des éléments suivants est un exemple de relation ""ParentOf"" dans ce texte ?
+A. 59Improper Link Resolution Before File Access ('Link Following')
+B. MemberOf 734Weaknesses Addressed by the CERT C Secure Coding Standard734951
+C. CWE-748: CERT C Secure Coding Section 50 - POSIX (POS)
+D. Proper Link Resolution After File Access"	A					B
+"Question : Selon le texte, quelle variable d'environnement est consultée pour localiser les exécutables dans les systèmes UNIX et Linux ?
+A. PATH
+B. LD_PRELOAD
+C. PATHINFO
+D. PYTHON_PATH"	A					A
+"Question : Quel article permet aux États membres d'adopter des règles spécifiques pour les contrôleurs et sous-traitants soumis à une obligation de secret professionnel ?
+A. Article 15
+B. Article 58(1)
+C. Article 89
+D. Article 90"	D					B
+"Question : Laquelle des vulnérabilités suivantes affecte le verrouillage incorrect ?
+A. 667Improper Locking
+B. 820Missing Synchronization
+C. 821Incorrect Synchronization
+D. 663Use of a Non-reentrant Function in a Concurrent Context"	A					A
+"Question :
+Selon le texte, quelle est la conséquence potentielle d'un dépassement de capacité de la mémoire tampon ?
+A. Intégrité compromise
+B. Disponibilité réduite
+C. Confidentialité violée
+D. Toutes les réponses ci-dessus"	D					D
+"Question : Quelle catégorie de faiblesses est liée à l'utilisation concurrente de ressources partagées ?
+A. Problèmes d'environnement ASP.NET
+B. Problèmes de concurrence
+C. Attribution de privilèges incorrecte
+D. Problèmes d'accès contrôlé"	B					B
+"Question : Laquelle des affirmations suivantes est une mitigation potentielle des attaques de capture-rejeu ?
+
+A. Utiliser une séquence ou un horodatage avec une somme de contrôle pour garantir que les messages ne peuvent être traités qu'une seule fois
+B. Signer les messages avec de la cryptographie pour garantir que les numéros de séquence ne sont pas modifiés
+C. Autoriser les utilisateurs à écouter le trafic réseau
+D. Contourner l'authentification en rejouant le trafic réseau d'origine"	A					A
+"Question :
+Selon le texte, quelle mesure doit être prise pour garantir que les données personnelles ne sont pas conservées plus longtemps que nécessaire ?
+
+A. Exiger le consentement du sujet des données
+B. Établir des délais d'effacement ou de révision périodique
+C. Supprimer toutes les données personnelles obsolètes
+D. Crypter les données personnelles"	B					B
+"**Question :**
+
+Selon le texte, pour atténuer le risque de mauvaise gestion d'éléments spéciaux incohérents, quelle stratégie de validation d'entrée est recommandée ?
+
+**A.** Utiliser uniquement des listes noires
+**B.** Utiliser uniquement des listes blanches
+**C.** Utiliser une combinaison de listes noires et blanches
+**D.** Ne pas effectuer de validation d'entrée
+
+**"	** C					Flagged
+"**Question :**
+
+Selon le texte, quelle catégorie CWE est couverte par les faiblesses de Struts ?
+
+A. CWE-101
+B. CWE-129
+C. CWE-602
+D. CWE-78
+
+**"	A**					Flagged
+"Question : Selon le texte, laquelle des affirmations suivantes est VRAIE concernant les listes noires ?
+
+A. Elles sont toujours efficaces pour détecter tous les intrants indésirables.
+B. Elles peuvent être utilisées pour détecter des attaques potentielles.
+C. Elles ne sont pas utiles pour valider les intrants.
+D. Elles doivent être utilisées uniquement lors de la validation des extrants."	B					Flagged
+"Question : Selon le texte, quel type d'organisme devrait être en mesure de divulguer des données personnelles contenues dans des documents ?
+
+A. Les autorités publiques et les organismes publics uniquement
+B. Les entreprises privées uniquement
+C. Les autorités publiques, les organismes publics et les entreprises privées
+D. Les particuliers uniquement"	A					Flagged
+"**Question :**
+
+Selon le texte, lequel des éléments suivants a été essentiel à la perception et à l'utilisation de la méthodologie ATT&CK ?
+
+**Choix :**
+
+A. Son orientation vers les cas d'utilisation
+B. Son ancrage dans les connaissances empiriques sur les menaces
+C. Sa capacité à modéliser le comportement des adversaires
+D. Son champ d'application limité aux domaines couverts par ATT&CK
+
+**"	** B					B
+"**Question :**
+
+Quelle faiblesse permet le contournement de l'authentification en modifiant l'objet CTX OpenSSL après la création des objets SSL ?
+
+**A.** CWE-592
+**B.** CWE-593
+**C.** MEM06-C
+**D.** OWASP Top Ten 2004 A3
+
+**"	B.**					Flagged
+"Question :
+Selon le texte, quelle est la faille de sécurité associée à CWE-423 ?
+A. Proxied Trusted Channel
+B. Improper Protection of Alternate Path
+C. Direct Request ('Forced Browsing')
+D. Channel and Path Errors"	A					Flagged
+"Question : Laquelle des vulnérabilités suivantes est liée à des erreurs de type de données ?
+A. CWE-605
+B. CWE-606
+C. CWE-626
+D. CWE-646"	C					Flagged
+"Question :
+Quelle erreur décrit le texte dans le cadre de l'exemple 6 ?
+
+A. Omission de vérification de la valeur de retour de la méthode Read()
+B. Mauvaise gestion des exceptions
+C. Utilisation d'un flux de fichier non initialisé
+D. Dépassement de capacité du tableau MyArray"	A					A
+"Question : Quelles sont les conséquences courantes du code malveillant non réplicant ?
+A. Corruption des données
+B. Exécution de commandes non autorisées
+C. Suppression des fichiers
+D. Vol d'identité"	B					Flagged
+"**Question :**
+
+Quel est l'un des moyens courants de contourner l'authentification côté client ?
+
+**A.** Chiffrement côté serveur
+**B.** Inspection des en-têtes HTTP côté serveur
+**C.** Modification du code client pour omettre la vérification d'authentification
+**D.** Implémentation d'un pare-feu côté client
+
+**"	C**					Flagged
+"Question : Quelle est la principale vulnérabilité abordée dans le texte ?
+A. Validation XML manquante
+B. Appels JNI non sécurisés
+C. Exposition des informations système
+D. Utilisation de code natif"	A					Flagged
+"Question :
+Quelle section du CERT C Secure Coding Standard est dédiée aux expressions (EXP) ?
+A. Section 01
+B. Section 02
+C. Section 03
+D. Section 04"	C					Flagged
+"Question : Quelle est la meilleure pratique pour empêcher les attaques par injection SQL ?
+A. Utiliser des déclarations préparées avec des variables liées
+B. Échapper les métacaractères
+C. Autoriser une large gamme de caractères dans les requêtes SQL
+D. Dupliquer les contrôles de sécurité sur le côté serveur"	A					Flagged
+"Question : Quel est le principe qui dicte que l'accès aux privilèges système doit être limité au minimum nécessaire ?
+
+A. Principe de la responsabilité minimale
+B. Principe de moindre privilège
+C. Principe de séparation des tâches
+D. Principe de défense en profondeur"	B					Flagged
+"Question : Laquelle des faiblesses suivantes est une ""Composite"" selon la liste ?
+A. 787 Out-of-bounds Write
+B. 788 Access of Memory Location After End of Buffer
+C. 822 Untrusted Pointer Dereference
+D. 843 Access of Resource Using Incompatible Type ('Type Confusion')"	D					Flagged
+"**Question :**
+
+Quelle est la conséquence potentielle d'un PRNG faible sur la sécurité ?
+
+**A.** Aucun impact
+**B.** Affaiblissement des méthodes de cryptage
+**C.** Augmentation de la puissance de traitement nécessaire
+**D.** Diminution de l'entropie du système
+
+**"	B**					Flagged
+"Question : Selon le texte, quelle est la conséquence potentielle de l'utilisation d'une source d'entropie limitée dans un générateur de nombres aléatoires ?
+A. Le générateur pourrait produire des nombres aléatoires prévisibles.
+B. Le générateur pourrait générer des nombres non aléatoires.
+C. Le générateur pourrait se bloquer ou planter.
+D. Le générateur pourrait consommer trop de ressources."	A					Flagged
+"Question : Quelle est la faiblesse décrite dans le texte ?
+A. Exposition d'un référentiel CVS à une sphère de contrôle non autorisée
+B. Exposition d'un fichier de vidage de mémoire à une sphère de contrôle non autorisée
+C. Exposition d'informations de levage intégrées dans les distributions client
+D. Exposition d'informations via des variables d'environnement"	A					Flagged
+"Question : Laquelle des affirmations suivantes est vraie concernant la relation entre Equals() et Hashcode() ?
+A. Equals() doit être défini avant que Hashcode() puisse être défini.
+B. Hashcode() doit être défini avant que Equals() puisse être défini.
+C. Les deux Equals() et Hashcode() doivent être définis.
+D. Aucune des options ci-dessus."	C					Flagged
+"Question : Quel CWE concerne les faiblesses de l'interaction entre les composants ?
+A. CWE-800
+B. CWE-801
+C. CWE-802
+D. CWE-803"	B					Flagged
+"Question :
+Quel type d'attaque peut être causé par un débordement de tampon basé sur la pile ?
+A. Débordement de tampon basé sur le tas
+B. Dépassement de capacité d'indexation de tableau
+C. Écrasement du pointeur de retour
+D. Écrasement du pointeur de pile"	C					Flagged
+"Question : Quel type de codage de sortie est recommandé pour prévenir les attaques ?
+A. ISO 8859-1
+B. Unicode
+C. ANSI
+D. ASCII"	A					Flagged
